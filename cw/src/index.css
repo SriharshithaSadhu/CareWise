@@ -1,0 +1,107 @@
+/* src/index.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #343a40; /* Dark gray text */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px; /* Set a max width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding */
+}
+
+h1, h2, h3 {
+    color: #007bff; /* Blue color for headings */
+}
+
+button {
+    cursor: pointer; /* Change cursor to pointer for buttons */
+}
+
+input, textarea {
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Add some padding */
+    width: 100%; /* Full width */
+    margin-bottom: 10px; /* Space between inputs */
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+ul {
+    list-style-type: disc; /* Use disc for unordered lists */
+    padding-left: 20px; /* Indent lists */
+}
+
+.text-red-500 {
+    color: #dc3545; /* Red color for error messages */
+}
+
+.text-center {
+    text-align: center; /* Center text */
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem; /* Margin bottom utility */
+}
+
+.mb-4 {
+    margin-bottom: 1rem; /* Margin bottom utility */
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem; /* Margin bottom utility */
+}
+
+.bg-white {
+    background-color: #ffffff; /* White background */
+}
+
+.p-6 {
+    padding: 1.5rem; /* Padding utility */
+}
+
+.rounded {
+    border-radius: 0.25rem; /* Rounded corners utility */
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Medium shadow */
+}
+
+.transition {
+    transition: all 0.2s ease-in-out; /* Transition for hover effects */
+}
+
+.hover\:bg-blue-600:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.text-blue-500 {
+    color: #007bff; /* Blue text */
+}
+
+.text-white {
+    color: #ffffff; /* White text */
+}
+
+.bg-blue-500 {
+    background-color: #007bff; /* Blue background */
+}
+
+.bg-gray-100 {
+    background-color: #f8f9fa; /* Light gray background */
+}
