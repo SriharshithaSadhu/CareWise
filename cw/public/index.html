@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareWise - Symptom Checker</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-3xl text-center">CareWise</h1>
+        <nav class="mt-2">
+            <ul class="flex justify-center space-x-4">
+                <li><a href="#symptom-checker" class="hover:underline">Symptom Checker</a></li>
+                <li><a href="#nearby-hospitals" class="hover:underline">Nearby Hospitals</a></li>
+                <li><a href="#specialist-doctors" class="hover:underline">Specialist Doctors</a></li>
+                <li><a href="#auth" class="hover:underline">Login/Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="p-6">
+        <section id="symptom-checker" class="mb-8">
+            <h2 class="text-2xl mb-4">Symptom Checker</h2>
+            <form id="symptom-form" class="bg-white p-4 rounded shadow-md">
+                <textarea placeholder="Enter your symptoms..." required class="border p-2 mb-4 w-full h-32 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                <button type="submit" class="bg-blue-500 text-white p-2 rounded w-full transition duration-200 hover:bg-blue-600">Check Symptoms</button>
+            </form>
+            <div id="symptom-results" class="mt-4"></div>
+        </section>
+
+        <section id="nearby-hospitals" class="mb-8">
+            <h2 class="text-2xl mb-4">Nearby Hospitals</h2>
+            <ul class="bg-white p-4 rounded shadow-md">
+                <li>General Hospital - 1.2 miles away</li>
+                <li>City Medical Center - 2.5 miles away</li>
+                <li>HealthCare Clinic - 0.8 miles away</li>
+            </ul>
+        </section>
+
+        <section id="specialist-doctors" class="mb-8">
+            <h2 class="text-2xl mb-4">Specialist Doctors</h2>
+            <ul class="bg-white p-4 rounded shadow-md">
+                <li>Dr. Smith - Cardiologist</li>
+                <li>Dr. Johnson - Dermatologist</li>
+                <li>Dr. Lee - Pediatrician</li>
+            </ul>
+        </section>
+
+        <section id="auth" class="mb-8">
+            <h2 class="text-2xl mb-4">Login/Register</h2>
+            <div id="auth-container"></div>
+        </section>
+    </main>
+
+    <footer class="bg-blue-600 text-white text-center p-4">
+        <p>Contact us: info@carewise.com</p>
+        <p>&copy; 2023 CareWise. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
